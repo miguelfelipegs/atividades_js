@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundação de Ensino de Contagem</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1 id="titulo_01">Fundação de Ensino de Contagem</h1>
+        <p>Curso de Frontend</p>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="inicio">
+
+        <section>
+            <h2 class="tit-02">Manipulação do DOM</h2>
+
+            <p>Este é um parágrafo que será utilizado nos exercícios.</p>
+
+            <p class="destaque">Este é um texto com a classe destaque.</p>
+        </section>
+
+        <!-- Caixas -->
+        <section class="caixas" id="cursos">
+
+            <div class="primeira-div">
+                <h3>Caixa #1</h3>
+                <p>Conteúdo da 1ª caixa.</p>
+            </div>
+
+            <div class="segunda-div">
+                <h3>Caixa #2</h3>
+                <p>Conteúdo da 2ª caixa.</p>
+            </div>
+
+            <div class="terceira-div">
+                <h3>Caixa #3</h3>
+                <p>Conteúdo da 3ª caixa.</p>
+            </div>
+
+        </section>
+
+        <!-- Botões -->
+        <section class="botoes">
+            <button id="btn-principal">Botão principal</button>
+            <button id="btn-secundario">Botão secundário</button>
+        </section>
+
+        <!-- Lista de tecnologias -->
+        <section>
+            <h2>Lista de tecnologias</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>PHP</li>
+                <li>Rust</li>
+            </ul>
+        </section>
+
+        <!-- Imagem -->
+        <section>
+            <h2>Imagem</h2>
+
+            <img 
+                src="https://placehold.co/400x250/orange/white?text=Frontend"
+                alt="Imagem ilustrativa de Frontend"
+                width="400"
+            >
+        </section>
+
+        <!-- Formulário -->
+        <section id="contato">
+            <h2>Formulário</h2>
+
+            <form action="#" method="post">
+
+                <label for="nome">Nome</label>
+                <input 
+                    type="text" 
+                    id="nome" 
+                    name="nome"
+                    placeholder="Digite seu nome"
+                >
+
+                <label for="email">E-mail</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+                <label for="curso">Curso</label>
+                <select id="curso" name="curso">
+                    <option value="">Selecione</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+
+                <label for="comentario">Comentário</label>
+                <textarea 
+                    id="comentario" 
+                    name="comentario"
+                    placeholder="Digite seu comentário"
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+        <!-- Tabela de alunos -->
+        <section>
+            <h2>Tabela de alunos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Curso</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Miguel</td>
+                        <td>17</td>
+                        <td>Frontend</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lucas</td>
+                        <td>18</td>
+                        <td>Backend</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gabriel</td>
+                        <td>16</td>
+                        <td>JavaScript</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Curso de Frontend - Manipulação do DOM</p>
+    </footer>
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
